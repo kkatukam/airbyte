@@ -6,6 +6,7 @@ if [[ `git status --porcelain` ]]; then
   # everything is not up to date!
   echo ""
   echo "ERROR: There are changes left to commit!"
+  echo " Koteshwar Test"
   echo ""
   exit 1
 fi
